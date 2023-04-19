@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { ComposableMap, Geographies, Geography, Graticule } from "react-simple-maps"
 import { Marker } from "react-simple-maps"
-import PopupCustom from './Popup';
+import PopupCustom from './Popup/Popup';
 
 function App() {
   // SVG to build the map
