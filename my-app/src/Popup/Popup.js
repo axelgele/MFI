@@ -9,6 +9,7 @@ const PopupCustom = ({ setIsOpen, isOpen, weather }) => {
     <ReactModal
       isOpen={isOpen}
       onRequestClose={() => setIsOpen(false)}
+      ariaHideApp={false}
     >
       <div className='containerTemp'>
         <h4>Température des derniers jours :</h4>
